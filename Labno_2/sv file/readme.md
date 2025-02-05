@@ -16,6 +16,18 @@ This directory contains the SystemVerilog (`.sv`) files for Lab 2. These files d
 ## Notes
 - Ensure that all necessary modules are instantiated properly.
 - Follow coding guidelines for readability and efficiency.
+## Code
+-module lab3_task( input logic c,
+    input logic a,
+input logic b,
+output logic y,
+output logic x
+);
+
+   assign x = (~c) ^ ( a|b);
+   assign y = ((~(a&b)) ^ (a|b)) & ( a|b);
+
+endmodule
 
 ## Author
 - **Rameen**
