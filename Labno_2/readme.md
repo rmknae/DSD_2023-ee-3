@@ -7,9 +7,8 @@ This repository contains the design and verification files for **Lab_no_2**, inc
 
 ## 🛠 Tools & Technologies
 
-- **SystemVerilog** (for RTL and testbench)
-- **Vivado / Quartus** (for FPGA synthesis)
-- **ModelSim / QuestaSim** (for simulation)
+- **SystemVerilog** (for RTL )
+- **Vivado** (for FPGA synthesis)
 - **Draw.io** (for documentation)
 
 ## 📜 Usage
