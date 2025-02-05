@@ -1,13 +1,9 @@
 # 📌 Lab_no_2 Repository
 
-This repository contains the design and verification files for **Lab_no_2**, including SystemVerilog code, test benches, constraints, and documentation.
+This repository contains the design and verification files for **Lab_no_2**, including SystemVerilog code,constraints, and documentation.
 
 ## 📂 Folder Structure
 
-
-## 🚀 Project Overview
-
-This project involves the design, simulation, and implementation of a digital system using **SystemVerilog** and **FPGA constraints**.
 
 ## 🛠 Tools & Technologies
 
