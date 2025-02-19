@@ -1,27 +1,20 @@
-Lab 4: *RGB Logic Circuit*
+# Lab 4: RGB Logic Circuit
 
-Description:
-This project implements a combinational logic circuit that determines the Red (R), Green (G), 
-and Blue (B) outputs based on two 2-bit input signals, a[1:0] and b[1:0]. The logic equations 
-are derived using Karnaugh maps.
+This lab focuses on designing and simulating an RGB logic circuit using **SystemVerilog**. 
+The circuit determines the Red (R), Green (G), and Blue (B) outputs based on 2-bit input signals 
+and is verified through simulation.
 
-File Structure:
-- rtl/
-  - Lab4_rgb.sv (Main design file)
-- bench/
-  - Lab4_rgb_tb.sv (Testbench for simulation)
-- constraints/
-  - Lab4_constraints.xdc (FPGA constraints file)
-- docs/
-  - K-map_for_R.png
-  - K-map_for_G.png
-  - K-map_for_B.png
+## 📂 Folder Structure
+- **docs/** - Contains Karnaugh maps used for logic derivation.
+- **rtl/** - Includes SystemVerilog RTL (Register Transfer Level) design file (`Lab4_rgb.sv`).
+- **bench/** - Contains the testbench (`Lab4_rgb_tb.sv`) for simulation.
+- **constraints/** - FPGA constraint files (`Lab4_constraints.xdc`).
 
-Inputs:
+## Inputs:
 - a[1:0]: 2-bit input signal
 - b[1:0]: 2-bit input signal
 
-Outputs:
+## Outputs:
 - R: Red output logic
 - G: Green output logic
 - B: Blue output logic
