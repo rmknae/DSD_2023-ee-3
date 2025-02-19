@@ -1,4 +1,4 @@
-Lab 4: RGB Logic Circuit
+Lab 4: *RGB Logic Circuit*
 
 Description:
 This project implements a combinational logic circuit that determines the Red (R), Green (G), 
