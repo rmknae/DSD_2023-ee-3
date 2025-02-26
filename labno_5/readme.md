@@ -13,5 +13,5 @@ This lab focuses on designing and simulating a seven-segment display driver circ
 - sel[2:0]: 3-bit input signal selecting one of the eight seven-segment displays
 
 ## Outputs:
-- seg[6:0]: Seven-segment display output signals
+- seg[2:0]: Seven-segment display output signals
 - an[7:0]: Anode control signals for the displays
