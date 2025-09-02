@@ -17,8 +17,3 @@ SystemVerilog design and verification files for **Lab_no_2**, including FPGA con
 2. Apply FPGA constraints  
 3. Run synthesis & implementation in Vivado  
 4. Test on FPGA  
-
-## 📜 Usage
-```bash
-git clone https://github.com/yourusername/Lab_no_2.git
-cd Lab_no_2
