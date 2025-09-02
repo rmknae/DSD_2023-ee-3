@@ -1,31 +1,24 @@
-# 📌 Lab_no_2 Repository
+# 📌 Lab_no_2
 
-This repository contains the design and verification files for **Lab_no_2**, including SystemVerilog code,constraints, and documentation.
+SystemVerilog design and verification files for **Lab_no_2**, including FPGA constraints and documentation.  
 
-## 📂 Folder Structure
+## 🛠 Tools
+- SystemVerilog  
+- Vivado  
+- Draw.io  
 
+## 📂 Structure
+- `constraints/` → FPGA pin mappings (`.xdc`)  
+- `sv file/` → SystemVerilog source files  
+- `docs/` → Diagrams & notes  
 
-## 🛠 Tools & Technologies
-
-- **SystemVerilog** (for RTL )
-- **Vivado** (for FPGA synthesis)
-- **Draw.io** (for documentation)
-
-## Tasks
-1. **Design Specification**: Define the behavior and requirements of the circuit.
-2. **HDL Implementation**: Write SystemVerilog (`.sv`) code for the design.
-3. **Constraint Mapping**: Define FPGA constraints using `.xdc` files.
-4. **Synthesis and Implementation**: Deploy and test on FPGA.
-
-## Files
-- `constraints/lab2_task.xdc`: Defines FPGA pin mappings.
-- `sv file/`: Contains SystemVerilog source files.
-- `docs/`: diagrams
-
+## 🚀 Workflow
+1. Write SystemVerilog code  
+2. Apply FPGA constraints  
+3. Run synthesis & implementation in Vivado  
+4. Test on FPGA  
 
 ## 📜 Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/Lab_no_2.git
-   cd Lab_no_2
+```bash
+git clone https://github.com/yourusername/Lab_no_2.git
+cd Lab_no_2
